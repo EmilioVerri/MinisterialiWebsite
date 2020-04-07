@@ -1,3 +1,7 @@
+/*#A3A3A3 colore per la brouchure*/
+
+
+
 /*!
  * Name: WebSlides
  * Version: 1.5.0
@@ -3076,13 +3080,13 @@ svg {
   color: #bce; }
 
 .bg-brown a {
-  color: #c23; }
+  color: #a3a3a3; }
 
 a,
 .bg-white a,
 .bg-light a,
 .bg-gradient-white a {
-  color: #c23;; }
+  color: #a3a3a3;; }
 
 a:hover {
   color: #3af; }
@@ -3140,7 +3144,7 @@ Slides - Backgrounds <section class="bg-primary">
 ================================================== */
 /*3 Corp Colors*/
 .bg-primary {
-  background-color: #c23;; }
+  background-color: #a3a3a3;; }
 
 .bg-secondary {
   background-color: #67d; }
@@ -3170,7 +3174,7 @@ Slides - Backgrounds <section class="bg-primary">
   background-color: #62b; }
 
 .bg-red {
-  background-color: #c23; }
+  background-color: #a3a3a3; }
 
 .bg-white {
   background-color: #fff; }
@@ -3673,7 +3677,7 @@ input[type='submit'],
 .button:hover,
 button[type='submit']:hover,
 input[type='submit']:hover {
-  border: 1px solid #c23;; }
+  border: 1px solid #a3a3a3;; }
 
 button[type='submit'],
 input[type='submit'],
@@ -3681,7 +3685,7 @@ input[type='submit'],
 .button:hover,
 button[type='submit']:hover,
 input[type='submit']:hover {
-  background-color: #c23;;
+  background-color: #a3a3a3;;
   color: #fff;
   text-shadow: 0 1px 0 #123; }
 
@@ -3711,7 +3715,7 @@ input[type='submit']:active {
 
 .bg-white a.button.ghost,
 .bg-gradient-white a.button.ghost {
-  border: 1px solid #c23;
+  border: 1px solid #a3a3a3;
   color: #333; }
 
 :disabled,
@@ -3722,7 +3726,7 @@ button:disabled:hover {
 
 fieldset {
   background-color: rgba(0, 20, 80, 0.2);
-  border: 1px solid #c23; }
+  border: 1px solid #a3a3a3; }
 
 legend {
   background-color: rgba(0, 0, 0, 0.6);
