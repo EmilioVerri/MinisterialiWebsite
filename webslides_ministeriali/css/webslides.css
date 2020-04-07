@@ -5135,8 +5135,8 @@ Slides Index
     position: relative;
     background: #333333;
     color: white;
-    height: 85vh;
-    max-height: 85;
+    /* height: 85vh;
+    max-height: 85; */
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -5168,6 +5168,29 @@ Slides Index
     font-size: 2.5rem;
     color: rgba(255, 255, 255, 0.5);
     line-height: 1.4;
+}
+
+.herosec {
+    position: relative;
+    background: #333333;
+    color: white;
+    /* height: 85vh;
+    max-height: 85; */
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+}
+
+.herosec li>h2 {
+    font-size: 25px;
+}
+
+.herosec ul {
+    background-color: rgb(87, 87, 87);
+    border-radius: 30px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 
