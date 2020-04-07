@@ -4262,9 +4262,10 @@ Slides - Backgrounds <section class="bg-primary">
     background-color: #62b;
 }
 
-.bg-red {
+
+/* .bg-red {
     background-color: #c23;
-}
+} */
 
 .bg-white {
     background-color: #fff;
@@ -4297,7 +4298,9 @@ Slides - Backgrounds <section class="bg-primary">
 .bg-blue,
 .bg-green,
 .bg-purple,
-.bg-red,
+
+/* .bg-red, */
+
 .bg-facebook,
 .bg-apple,
 [class*='bg-black'],
@@ -4966,7 +4969,7 @@ input[type='submit'],
 .button:hover,
 button[type='submit']:hover,
 input[type='submit']:hover {
-    border: 1px solid #c23;
+    border: 1px solid white;
     ;
 }
 
@@ -4976,7 +4979,7 @@ input[type='submit'],
 .button:hover,
 button[type='submit']:hover,
 input[type='submit']:hover {
-    background-color: #c23;
+    background-color: gray;
     ;
     color: #fff;
     text-shadow: 0 1px 0 #123;
