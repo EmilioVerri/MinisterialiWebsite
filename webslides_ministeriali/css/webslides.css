@@ -420,7 +420,29 @@ webslides.js will add .ws-ready automatically. Don't worry :) -- */
 }
 
 #webslides::-webkit-scrollbar {
-    display: none;
+    display: auto;
+}
+
+
+/* #webslides {
+    scrollbar-color: white;
+    /* thumb and track color 
+
+scrollbar-width: thin;
+
+}*/
+
+#webslides::-webkit-scrollbar {
+    width: 15px;
+}
+
+#webslides::-webkit-scrollbar-track {
+    background: white;
+}
+
+#webslides::-webkit-scrollbar-thumb {
+    background: rgb(87, 87, 87);
+    /* border-right: 100% solid white; */
 }
 
 li li {
@@ -2337,13 +2359,19 @@ footer .column h3 {
 ====================================================================== */
 
 .flexblock.features>li {
+    padding: 5% 25px;
     border-radius: .4rem;
     margin-bottom: 4.8rem;
     width: 100%;
+    background-color: rgb(126, 125, 125);
+    height: 100%;
 }
 
 .flexblock.features li h2 {
-    text-transform: uppercase;
+    text-transform: capitalize;
+    font-size: 23px;
+    padding-bottom: 5%;
+    color: white;
 }
 
 .flexblock.features li span {
@@ -2352,6 +2380,8 @@ footer .column h3 {
 
 .flexblock.features li p {
     margin: 0;
+    font-size: 19px;
+    color: white;
 }
 
 .flexblock.features li p em {
@@ -2368,6 +2398,21 @@ footer .column h3 {
 
 .flexblock.features li img {
     width: 100%;
+}
+
+.flexblock.features>li.linascosta {
+    background-color: #333333;
+    margin: 0;
+    display: hidden;
+    height: 0;
+    transform: translateY(0);
+    z-index: 0;
+    padding: 0;
+    border-radius: .4rem;
+}
+
+.flexblock.features>li.ultimi {
+    width: 25%;
 }
 
 
@@ -5185,7 +5230,7 @@ Slides Index
     width: 100%;
 }
 
-.herosec a>li>h2 {
+.herosec li>h2 {
     font-size: 25px;
 }
 
@@ -5203,6 +5248,23 @@ Slides Index
     margin: 0 auto;
     
 }
+<<<<<<< HEAD
+=======
+
+.immagine {
+    position: relative;
+    background: #333333;
+    color: white;
+    /* height: 85vh;
+    max-height: 85; */
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    padding: 0 10%;
+}
+
+>>>>>>> 3f1baa41cedc9c98bba84dbc900a6814ea9934ca
 
 /* ========================= */
 
