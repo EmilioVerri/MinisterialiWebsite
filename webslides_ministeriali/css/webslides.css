@@ -420,7 +420,7 @@ webslides.js will add .ws-ready automatically. Don't worry :) -- */
 }
 
 #webslides::-webkit-scrollbar {
-    display: none;
+    display: flexbox;
 }
 
 li li {
@@ -5182,7 +5182,7 @@ Slides Index
     width: 100%;
 }
 
-.herosec a>li>h2 {
+.herosec li>h2 {
     font-size: 25px;
 }
 
