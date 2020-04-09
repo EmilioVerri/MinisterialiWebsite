@@ -2400,6 +2400,21 @@ footer .column h3 {
     width: 100%;
 }
 
+.flexblock.features>li.linascosta {
+    background-color: #333333;
+    margin: 0;
+    display: hidden;
+    height: 0;
+    transform: translateY(0);
+    z-index: 0;
+    padding: 0;
+    border-radius: .4rem;
+}
+
+.flexblock.features>li.ultimi {
+    width: 25%;
+}
+
 
 /*immagini slide 4*/
 
