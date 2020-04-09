@@ -5238,6 +5238,19 @@ Slides Index
     margin: 0 auto;
 }
 
+.immagine {
+    position: relative;
+    background: #333333;
+    color: white;
+    /* height: 85vh;
+    max-height: 85; */
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    padding: 0 10%;
+}
+
 
 /* ========================= */
 
