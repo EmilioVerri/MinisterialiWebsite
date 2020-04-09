@@ -4544,7 +4544,10 @@ Features & Clients List
     box-shadow: 0 8px 16px rgba(0, 20, 80, 0.02), 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
+.prova{
+    background-color: red;
 
+}
 /*============================
 .flexblock with border
 ============================== */
@@ -5191,8 +5194,15 @@ Slides Index
     border-radius: 30px;
     width: 100%;
     margin: 0 auto;
+    
 }
-
+.herosec li {
+    background-color: rgb(87, 87, 87);
+    border-radius: 30px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
 
 /* ========================= */
 
