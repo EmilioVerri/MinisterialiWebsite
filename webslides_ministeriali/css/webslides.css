@@ -420,7 +420,8 @@ webslides.js will add .ws-ready automatically. Don't worry :) -- */
 }
 
 #webslides::-webkit-scrollbar {
-    display: flexbox;
+    display: auto;
+    height: 0px;
 }
 
 li li {

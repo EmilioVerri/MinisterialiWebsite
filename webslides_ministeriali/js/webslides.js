@@ -796,7 +796,7 @@
 
             var delta = y - SCROLLABLE_CONTAINER.scrollTop;
             var startLocation = SCROLLABLE_CONTAINER.scrollTop;
-            var increment = 10;
+            var increment = 16;
 
             if (!duration) {
                 SCROLLABLE_CONTAINER.scrollTop = y;
