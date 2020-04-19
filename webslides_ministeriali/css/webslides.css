@@ -5175,7 +5175,9 @@ footer[role='contentinfo'] {
     margin: 0 auto;
     padding: 0 20px;
 }
-
+.paragrafo{
+    text-align: justify;
+}
 .hero {
     position: relative;
     background: #333333;
